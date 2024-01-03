@@ -1,0 +1,17 @@
+body{
+    background-color: #f0f0f0;
+}
+h1{
+    color: rgb(255,0,0);
+    font-size: 25px;
+}
+p{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+im{
+    max-width: 25%;
+    min-height: 25%;
+    
+}
