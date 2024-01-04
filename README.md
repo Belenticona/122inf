@@ -1,2 +1,2 @@
-nombre: maria belen ticona quispe 
-materia :INF-122
+#nombre: maria belen ticona quispe 
+#materia :INF-122
