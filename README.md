@@ -1,3 +1,3 @@
 Nombre: Maria Belen Ticona Quispe 
 Materia :INF-122
-color favorito [azul]
+color favorito [#000FF]
