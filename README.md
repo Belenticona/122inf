@@ -1,0 +1,2 @@
+nombre: maria belen ticona quispe 
+materia :INF-122
