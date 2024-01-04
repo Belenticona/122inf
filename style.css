@@ -1,17 +1,23 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #fed8aa;
 }
 h1{
-    color: rgb(255,0,0);
-    font-size: 25px;
+    color: rgb(#d449bd)
 }
-p{
-    font-size: large;
-    text-align: center;
-    font-weight: bold;
+    h2{color:#b2bcc0
+    }
+   
+
+.enviar{
+    border-radius: 5px; 
+     background-color: #6ded74;
+    color: #272625;
+
 }
-im{
-    max-width: 25%;
-    min-height: 25%;
+.etiqueta{
+    background-color: blue;
+}
+.form{
     
+
 }
