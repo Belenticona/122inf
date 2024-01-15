@@ -1,0 +1,12 @@
+.Contador{
+    min-width: 300PX;
+    height: auto;
+    font-size: 160px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #dcdce5;
+    color:#ff872c;
+    align-items: center;
+    margin-bottom: 10px;
+}
