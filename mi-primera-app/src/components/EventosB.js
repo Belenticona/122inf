@@ -5,7 +5,7 @@ function EventoB(props) {
         <div className="card-container">
 
             <img className="card-image"
-                src={require(`../images/${props.image}.jpeg`)}
+                src={require(`../images/${props.image}.jpg`)}
                 alt="Foto del evento" />
 
 
