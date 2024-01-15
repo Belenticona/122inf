@@ -8,6 +8,9 @@ button{
     font-size: 24px;
     background-color:#ff872c;
 }
+.boton-click{
+    width: 150px;
+}
 button:hover{
     background-color:#DCDCE5;
     color:#ff972c;

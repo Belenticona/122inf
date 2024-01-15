@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Contador.css';
+import '../styles/Contador.css';
 
 function Contador({ nroClicks }) {
     return (

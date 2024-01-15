@@ -5,7 +5,16 @@ import { useState } from 'react';
 
 function App() {
   const [nroClicks, setNumClicks] = useState(0);
-  const click = () => {
+  const clickMenos3 = () => {
+    setNumClicks(nroClicks -3);
+  }
+  const clickmas3 = () => {
+    setNumClicks(nroClicks + 3);
+  }
+  const clickmenos1 = () => {
+    setNumClicks(nroClicks -1);
+  }
+  const clickmas1 = () => {
     setNumClicks(nroClicks + 1);
   }
   const reiniciar = () => {
@@ -13,17 +22,25 @@ function App() {
   }
   return (
     <div className="App">
-      <div className="contenedor-principal">
+      <div className="contendedor-principal">
         <Contador nroClicks={nroClicks} />
-        <div className='contendedor-botones'>
-          <Boton texto="Click" esBotonClick={true}
-            funcionClick={click} />
+        <div className='contendedor-botones-numeros '>
+          <div className='contendedor-botones'>
+              <Boton texto="+3" esBotonClick={true}
+              funcionClick={clickmas3} />
+              <Boton texto="-3" esBotonClick={true}
+              funcionClick={clickMenos3} />
+              <Boton texto="+1" esBotonClick={true}
+              funcionClick={clickmas1} />
+              <Boton texto="-1" esBotonClick={true}
+              funcionClick={clickmenos1} />
+            </div>
           <Boton texto="Reiniciar" esBotonClick={false}
-            funcionClick={reiniciar} />
+          funcionClick={reiniciar} />
         </div>
       </div>
     </div>
   );
-}
+  }
 
 export default App;

@@ -1,4 +1,4 @@
-import '../style/Boton.css';
+import '../styles/Boton.css';
 
 function Boton({ texto, esBotonClick, funcionClick }) {
 
@@ -7,6 +7,7 @@ function Boton({ texto, esBotonClick, funcionClick }) {
             onClick={funcionClick}>
             {texto}
         </button>
+        
     )
 }
 
